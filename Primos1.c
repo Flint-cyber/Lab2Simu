@@ -38,7 +38,9 @@ int main()
 	}
 
 	
-//Haremos un método interativo, sacando el residuo de la variable con todos los números que vayan antes de él, exceptuando al uno, y a él mismo, pues esos dos son los únicos divisores de un primo, y de excluirlos, todos los números quedarían excluidos. Por ello empezamos en dos y terminamos justo antes de la variable primo.
+//Haremos un método interativo, sacando el residuo de la variable con todos los números que vayan antes de él, exceptuando al uno, 
+//y a él mismo, pues esos dos son los únicos divisores de un primo, y de excluirlos, todos los números quedarían excluidos. 
+//Por ello empezamos en dos y terminamos justo antes de la variable primo.
 
 
 	for (int x = 2; x < primo; x++) //Comenzamos el conteo
@@ -49,12 +51,14 @@ int main()
 		//Sacamos los residuos correspondientes para cada iteración
 		{
 			Divisible=1; 
-		//Si todos los residuos son cero, entonces desde el vamos         		sabemos que NO es primo.
+		//Iniciamos asumiendo que el número NO es primo. No obstante, si al menos uno de los residuos termina siendo cero, 
+		//entonces la Flag se activa, sabemos que es divisible, y sale del ciclo.
 		}
 	}
 
 	if(Divisible==0) 
-	//Una pequeña condicional para imprimir los resultados basándonos en los	 resultados obtenidos a través del método interativo.
+	//Una condicional para imprimir los resultados basándonos en los resultados obtenidos a través del método interativo.
+	//Basándonos en si la Flag de divisibilidad ha sido activada o no.
 	{
 		printf("El número %d es PRIMO.\n", primo);
 	}

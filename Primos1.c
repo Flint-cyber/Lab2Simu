@@ -26,7 +26,8 @@ int main()
 	//Comenzamos pidiéndole un valor  al usuario
 
 	scanf("%d", &primo); 
-	//Leemos el número y le asignamos su valor a nuestra variable 
+	
+	//Leemos el número y le asignamos su valor a nuestra variable.
 
 
 //Este primer ciclo WHILE nos permitirá descartar los números no deseados: los negativos, el cero, y el uno.

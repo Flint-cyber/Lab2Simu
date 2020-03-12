@@ -43,7 +43,7 @@ int main()
 //Por ello empezamos en dos y terminamos justo antes de la variable primo.
 
 
-	for (int x = 2; x < primo; x++) //Comenzamos el conteo
+	for (int x = 2; x < primo; x++) //Comenzamos el conteo.
 	{
 
 

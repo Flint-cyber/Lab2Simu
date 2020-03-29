@@ -39,9 +39,9 @@ int main()
 	{
 		printf("\nNúmeros ordenados de forma Ascendente: \n"); //Enunciado para orientar al usuario
 		
-			for(i = 0; i < 10; i++) //Primer loop, que usa una variable i que inicia en la posición cero.
+			for(i = 0; i <= 9; i++) //Primer loop, que usa una variable i que inicia en la posición cero.
 			{
-				for(j = i + 1; j < 10; j++)//Segundo loop, usa una variable j que inicia una posición adelante de i.
+				for(j = i + 1; j <= 9; j++)//Segundo loop, usa una variable j que inicia una posición adelante de i.
 				{
 					//Comparamos i con j
 					//Lo ideal es que i sea menor que j. De ser así, dejamos a i solo y pasamos al siguiente puesto.
@@ -56,7 +56,7 @@ int main()
 			}
 
 			//Ahora, pasamos a imprimir el vector ordenado.
-			for(i = 0; i < 10; i++)  //Vamos imprimiendo cada una de las componentes desde la 0 hasta la 9.
+			for(i = 0; i <= 9; i++)  //Vamos imprimiendo cada una de las componentes desde la 0 hasta la 9.
 			{
 				printf("%i\n", par[i]); //Imprimimos, junto con una nueva línea, para distinguir las componentes.
 			}
@@ -66,7 +66,7 @@ int main()
 	{
 		printf("\nNúmeros ordenados de forma Descendente: \n"); //Enunciado para notificar al usuario.
 
-		for(i = 0; i <= 9; i++) //Primer loop, que usa una variable i que empieza en 0 y termina en 0
+		for(i = 0; i <= 9; i++) //Primer loop, que usa una variable i que empieza en 0 y termina en 9
 		{
 			for(j = i + 1; j <= 9; j++) //Segundo loop, que usa una variable j que empieza una posición por arriba de i y termina en 9.
 			{
@@ -82,7 +82,7 @@ int main()
 		}
 
 		//Ahora toca imprimir el vector ordenado.
-		for(i = 0; i < 10; i++) //Imprimimos cada una de las componentes desde 0 hasta 9
+		for(i = 0; i <= 9; i++) //Imprimimos cada una de las componentes desde 0 hasta 9
 		{
 			printf("%i\n", par[i]); //Junto con ello, imprimimos una nueva línea para que puedan distinguirse las componentes.
 		}

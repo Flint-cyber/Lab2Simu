@@ -44,6 +44,9 @@ float main()
 
 	//IMPRESIÓN DE LA GRÁFICA
 	
+//Para imprimir la gráfica, vamos a crear un archivo .gp, en el cual vamos a ingresar las instrucciones de plotear la función deseada.
+//El archivo .gp será ejecutado por gnuplot, e imprimirá las instrucciones que le daremos.
+	
 	//Declaramos el puntero que nos va a servir para poder dirigirnos al archivo que vamos a crear
 	FILE * pun;
 
